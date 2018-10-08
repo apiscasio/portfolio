@@ -1,0 +1,57 @@
+body {
+	background-image: url(../images/bg.jpg);
+	/*background-color: #4885ed;*/
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff; /*white*/
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 60px;
+	margin-bottom: 0;
+	/*background-color: RGBA(24,24,24,0.8);*/
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	-webkit-text-stroke: 0.5px #202020;
+	color: #fff;
+	font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 5px; 
+	color: #333; /*off black*/
+	background-color: white;
+}
+
+
+#me {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	border-width: 10px;
+	border-style: solid;
+	border-color: white;
+	margin-top: 80px;
+}
+
+.bio {
+	color: #fff;
+	width: 100%;
+	font-size: 20px;
+	line-height: 2;
+	/*background-color: RGBA(186,225,190,0.6);*/
+	background-color: rgba(51,51,51,0.8);
+
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
